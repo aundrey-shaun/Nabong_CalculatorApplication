@@ -109,7 +109,7 @@ namespace Nabong_CalculatorApplication.Calculator
             double num_input;
             while (!double.TryParse(Console.ReadLine(), out num_input))
             {
-                Console.WriteLine("Invalid input. Try Again, Please.");
+                Console.Write("Invalid input. Try Again: ");
             }
 
             return num_input;
